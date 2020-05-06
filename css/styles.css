@@ -1,0 +1,417 @@
+
+/* iSaralearning */
+.iSaralearning{
+    text-align: center;
+    padding: 50px 0px;  
+}
+.iSaralearning h1{
+    margin: 20px 0px 30px 0px;
+}
+.texs{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.iSaralearning >p{
+    margin-bottom: 10px;
+}
+.haba-40{
+    margin: auto;
+    margin: 40px 0px;
+}
+.haba-40>img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* merit */
+.merit{
+    background-color: #fef5e0;
+    padding:50px 0px;  
+}
+.kakko{
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 30px;
+    /* width: 860px; */
+    padding: 15px 30px;
+    font-weight: bold;
+    position: relative;
+}
+  .kakko-s{
+    font-size:1.4rem;
+    font-weight: 600;
+  }
+  .kakko::before{
+    content:"";  /* 必須 */
+    width:50px;
+    top:0; 
+    left:0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+    position: absolute;/* 親要素にrelative */
+    height:50px;
+    box-sizing: border-box;
+  }
+  .kakko::after{
+    content:"";
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .color-yerrow{
+    padding: 50px 0px;
+  }
+  .color-yerrow h2{
+    color: #ebb94d;
+    font-size:1.5rem;
+    font-weight: bold;
+
+  }
+  .merit-saport{
+    margin:auto;
+    text-align: center;
+    padding:50px 100px;
+    background-color: #fff;
+    border:4px solid #ebb94d ;
+  }
+.yerrow{
+  color: #ebb94d;
+  font-weight: bold;
+}
+.merit-saport h4{
+  margin-top: 30px;
+  font-weight: bold;
+}
+.merit-saport >p{
+  margin-top: 30px;
+  font-weight: bold;
+}
+/* teacher */
+.teacher{
+  background-color: black;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom:70px;
+}
+.teacher h2{
+  text-align: center;
+  padding-top: 50px;
+}
+.teacher-p{
+  text-align: center;
+}
+.teacher-contennt{
+  margin: auto;
+}
+.teacher img{
+  border-radius: 50%;
+  position: relative;
+  bottom: -35px;
+  width: auto;
+}
+.teacher-Set{
+  position: relative;
+  text-align: center;
+}
+.datail{
+  border: 2px solid #fff;
+  /* padding: 40px; */
+  font-size:1.2rem;
+
+}
+
+/* QA */
+.QA{
+  margin: auto;
+  text-align: center;
+  background-color: #ebb94d;
+  padding: 50px 5px;
+}
+.QA-Subject>p{
+  color: #ebb94d;
+  display: inline-block;
+  padding:30px 23px;
+  background-color: #fff;
+  border-radius:50%;
+}
+
+.QA-kakko{
+  margin: 0 auto;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+}
+.QA-kakko::before{
+  content:"";  /* 必須 */
+  width:50px;
+  top:0; 
+  left:0;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+  position: absolute;/* 親要素にrelative */
+  height:50px;
+  box-sizing: border-box;
+}
+.QA-kakko::after{
+  content:"";
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+
+/* ansew */
+.ansew{
+  padding-bottom: 50px;
+}
+.ansew-top{
+  text-align: center;
+}
+.margin-bt{
+  margin-bottom: 30px;
+}
+.ansew-img{
+  width:65%;
+  float: right;
+  margin-right: 20px;
+  border: 2px solid #ebb94d ;
+}
+.ansew-Ex{
+  color:#aaa;
+  font-size: 1.3rem;
+}
+.ansew-name{
+  display: inline;
+  font-size: 1.2rem;
+  border-bottom:2px solid #aaa ;
+
+}
+.ansew-row{
+  margin-top:30px;
+}
+
+/* class */
+.class{
+  padding: 50px 0px;
+  background-color: blueviolet;
+}
+.class-top{
+  text-align: center;
+  color: #fff;
+}
+.class-table{
+  border: 3px solid #6699FF;
+  text-align: center;
+  padding:0px;
+  margin:30px;
+}
+.class-table>h4{
+  color: #fff;
+  background-color:#6699FF;
+  padding:10px;
+  margin:0px;
+}
+.class-table>p{
+  background-color: #fff;
+  border-bottom: 2px dotted #333;
+  margin:0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 50px;
+}
+/* classbottom */
+.classbottom{
+  text-align:center;
+  color: #fff;
+}
+.classbottom>p{
+  padding:40px 0px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* flow */
+.flow{
+  padding: 40px;
+}
+.flow-top{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.flow-flow{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.flow-mine{
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 30px 35px;
+  background-color: #fef5e0;
+}
+.flow-mine-l{
+  float: left;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+.flow-mine-l>img{
+    /* width: auto; */
+    /* height: auto; */
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.flow-mine-l>p{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 10px;
+}
+.flow-mine-r{
+  /* overflow: hidden; */
+    text-align: left;
+    padding: 10px 0 0;
+}
+.flow-mine-r>h4{
+  font-weight: bold;
+  /* padding: 10px; */
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+.flow-mine-r>p{
+  font-size: 1.2rem;
+}
+.flow-img{
+  text-align: center;
+}
+
+@media screen and (min-width:481px) {
+  /* ここにパソコン版だけの記述 */
+  /* iSaralearning */
+  .brok{
+    display: none;
+  }
+  /* merit */
+  .merit-saport{
+    width:1400px;
+  }
+  .kakko{
+    width:860px;
+    
+  }
+
+    /* teacher */
+    .datail{
+      padding: 40px;
+
+    }
+    /* QA */
+    .QA-triangle{
+      font-size: 100px;
+      position: relative;
+      top: -40px;
+      right:-750px;
+      color: #ebb94d;
+    }
+    .QA-kakko{
+      width: 900px;
+      padding: 15px 30px;
+    }
+  
+  }
+
+@media screen and (max-width: 480px) {
+  * {
+    float: none;
+    position: static;
+    }
+  /* iSaralearning */
+  .iSaralearning{
+    width:90%;
+    margin:auto;
+  }
+  .iSaralearning>h2{
+    font-size:1.5rem;
+    font-weight: bold;
+  }
+  .iS-img-co{
+    width:80%;
+  }
+  .iS-img-row>.col-3{
+    padding:5px;
+  }
+.iS-img{
+  height:50px;
+  width: 100%;
+}
+  /* merit */
+  .merit-saport{
+    width:90%;
+  }
+  .kakko{
+    width: auto;
+    font-size: 1.2rem;
+  }
+  .kakko-s{
+    font-size:0.9rem;
+  }
+  .merit-row{
+    width:85%;
+    margin:auto;
+  }
+  .merit-saport{
+    padding:25px 10px;
+  }
+  .merit-saport>h2{
+    font-size:1.3rem;
+  }
+  .merit-saport>h4{
+    font-size:1.0rem;
+  }
+  .merit-saport>p{
+    font-size:0.9rem;
+  }
+  /* teacher */
+  .datail{
+    padding:40px 5px;
+
+  }
+      /* QA */
+      .QA-triangle{
+        display:none;
+      }
+      .QA-kakko{
+        font-size:1rem;
+        padding:30px 30px;
+
+      }
+      /* ansew */
+      .ansew{
+        padding-top: 50px;
+      }
+      .ansew-img{
+        width: 100%;
+        margin: auto;
+      }
+      /* flow */
+      .flow-flow{
+        display: none;
+      }
+      .flow-img{
+        display: none;
+      }
+  
+ }
