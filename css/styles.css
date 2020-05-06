@@ -1,10 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro",  Meiryo, Osaka, "MS PGothic", sans-serif;
+}
+h1 {
+  margin: 0;
+}
 
 /* iSaralearning */
 .iSaralearning{
     text-align: center;
     padding: 50px 0px;  
 }
-.iSaralearning h1{
+.iSaralearning>h1{
     margin: 20px 0px 30px 0px;
 }
 .texs{
@@ -67,7 +75,7 @@
   .color-yerrow{
     padding: 50px 0px;
   }
-  .color-yerrow h2{
+  .color-yerrow>h2{
     color: #ebb94d;
     font-size:1.5rem;
     font-weight: bold;
@@ -99,7 +107,7 @@
   padding-top: 20px;
   padding-bottom:70px;
 }
-.teacher h2{
+.teacher>h2{
   text-align: center;
   padding-top: 50px;
 }
@@ -268,8 +276,6 @@
   text-align: center;
 }
 .flow-mine-l>img{
-    /* width: auto; */
-    /* height: auto; */
     width: 80%;
     max-width: 100%;
     max-height: 100%;
@@ -281,13 +287,11 @@
   padding-top: 10px;
 }
 .flow-mine-r{
-  /* overflow: hidden; */
     text-align: left;
     padding: 10px 0 0;
 }
 .flow-mine-r>h4{
   font-weight: bold;
-  /* padding: 10px; */
   padding-bottom: 10px;
   font-size: 1.3rem;
 }
@@ -298,6 +302,134 @@
   text-align: center;
 }
 
+/* bangkok */
+.bangkok {
+  background-image: url("../img/bangkok-image.jpg");
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.bangkok h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  padding-top: 42px;
+}
+
+.bangkok .bangkok-box {
+  margin: 24px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.bangkok p:first-of-type {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.bangkok ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bangkok ul li {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  margin-bottom: 5px;
+
+}
+
+.bangkok p:last-child {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* special */
+.special {
+  background: #F7C23C;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.special h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #333;
+  padding-top: 20px;
+}
+
+.special p:first-of-type {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+
+.special .special-head {
+  background: #F7C23C;
+  position: relative;
+  width: 250px;
+  top: 50px;
+  margin: 0 auto;
+}
+
+.special .special-head p { 
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #333;
+}
+
+.special-box {
+  border: 2px solid white;
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.special .special-box-element {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.special .special-box-element .sb-left {
+  width: 30%;
+  padding: 0;
+}
+
+.special .special-box-element .sb-left .circle {
+  color: #F7C23C;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.special .special-box-element .sb-right {
+  width: 60%;
+  margin-right: auto;
+}
+
+.special .special-box-element .sb-right .text {
+  font-weight: 600;
+  font-size:  12px;
+  line-height: 19px;
+  color: #fff;
+  text-align: left;
+}
 @media screen and (min-width:481px) {
   /* ここにパソコン版だけの記述 */
   /* iSaralearning */
